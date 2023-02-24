@@ -1,0 +1,35 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+body{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#1E1E1E;
+}
+
+.wrapper-container{
+     height: 2233px;
+     width: 600px;
+     background-image: url("/img/background.svg");
+     background-repeat: no-repeat;
+     flex-direction: column;
+     align-items: center;
+     gap:20px;
+}
+
+
+
