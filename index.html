@@ -7,25 +7,62 @@
     <link href="css/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class = "d-flex">
-    <div class = "wrapper-container d-flex relative">
-        <div class = "hello">
-            <img src = "img/hello.svg">
-        </div>
-        <div class = "features d-flex">
-            <div class = "first-column">
-                <img src = "img/han.svg">
-                <img src = "img/skelet.svg">
+<body class = "d-flex align-center justify-center">
+    <div class = "wrapper-container d-flex flex-column align-center relative">
+        <header>
+            <div class = "hello relative">
+            <img src = "img/hello.png" class="transform">
+            <img src = "img/firefly.png" class = "firefly absolute">
+            <img src = "img/firefly-bottom.png" class = "firefly-bottom absolute">
+            <button class="button one absolute">ACTIVATE</button>
             </div>
-            <div class = "second-column">
-                <img src = "img/bull.svg">
+        </header>
+        <main class="d-flex flex-column">
+            <div class = "features d-flex">
+                <div class = "first-column d-flex flex-column relative">
+                    <img src = "img/han.png" class="transform">
+                    <img src = "img/skelet.png" class="transform">
+                    <button class="button two absolute">MORE</button>
+                    <button class="button three absolute">MORE</button>
+                </div>
+                <div class = "second-column relative">
+                    <img src = "img/bull.png" class="transform">
+                    <button class="button four absolute">MORE</button>
+                </div>
             </div>
+            <div class = "info-block d-flex align-center relative">
+                <img src = "img/feedback.png" class="transform">
+                <img src = "img/support.png" class="transform">
+                <button class="button five absolute">MORE</button>
+                <button class="button six absolute">MORE</button>
+            </div>
+        </main>  
+        <footer>
+            <div class="footer-info d-flex flex-column">
+                <h3 class="d-flex justify-center">
+                    <a href ="#">Terms and Conditions</a>|
+                    <a href="#">Unsubscribe</a>|
+                    <a href="#">Privacy Policy</a>
+                </h3>
+                <p>
+                    You received this email because you are registered at FgFox and accepted<br/>
+                     General Terms and Conditions of our project.
+                </p>
+                <p>
+                    <a href="#" id="none">Fgfox.com.</a> website is licensed and regulated under license365/JAZ Sub<br/> 
+                    License GLH-OCCHKTW0703032017 (dated March 3, 2017) and operates<br/>
+                    under the Master License of Game Service Provider, N.V. No. 365/JAZ as an<br/>
+                    information service provider. The technical support and payment gate of this<br/>
+                    website is provided by Fair Game Software KFT., registered under the laws of<br/>
+                    Hungary, with tax registration number: 27107870-2-13, legal address: 2161<br/>
+                    Csomád, Kossuth Lajos út 79.
+                </p>
+                <h3>
+                    ©2022 <a href="#" id="none">Fgfox.com.</a> All rights reserved.
+                </h3>
+            </div>
+        </footer>  
         </div>
-        <div class = "info-block">
-            <img src = "img/feedback.svg">
-            <img src = "img/support.svg">
-        </div>
-    </div>
     <script src = "js/main.js"></script>
 </body>
 </html>
