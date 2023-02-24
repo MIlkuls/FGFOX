@@ -10,7 +10,7 @@
 <body class = "d-flex align-center justify-center">
     <div class = "wrapper-container d-flex flex-column align-center relative">
         <header>
-            <div class = "hello relative">
+            <div class = "hello relative z-index">
             <img src = "img/hello.png" class="transform">
             <img src = "img/firefly.png" class = "firefly absolute">
             <img src = "img/firefly-bottom.png" class = "firefly-bottom absolute">
@@ -18,7 +18,7 @@
             </div>
         </header>
         <main class="d-flex flex-column">
-            <div class = "features d-flex">
+            <div class = "features d-flex z-index">
                 <div class = "first-column d-flex flex-column relative">
                     <img src = "img/han.png" class="transform">
                     <img src = "img/skelet.png" class="transform">
@@ -30,7 +30,7 @@
                     <button class="button four absolute">MORE</button>
                 </div>
             </div>
-            <div class = "info-block d-flex align-center relative">
+            <div class = "info-block d-flex align-center relative z-index">
                 <img src = "img/feedback.png" class="transform">
                 <img src = "img/support.png" class="transform">
                 <button class="button five absolute">MORE</button>
@@ -39,16 +39,16 @@
         </main>  
         <footer>
             <div class="footer-info d-flex flex-column">
-                <h3 class="d-flex justify-center">
+                <h3 class="d-flex justify-center z-index">
                     <a href ="#">Terms and Conditions</a>|
                     <a href="#">Unsubscribe</a>|
                     <a href="#">Privacy Policy</a>
                 </h3>
-                <p>
+                <p class="z-index">
                     You received this email because you are registered at FgFox and accepted<br/>
                      General Terms and Conditions of our project.
                 </p>
-                <p>
+                <p class="z-index">
                     <a href="#" id="none">Fgfox.com.</a> website is licensed and regulated under license365/JAZ Sub<br/> 
                     License GLH-OCCHKTW0703032017 (dated March 3, 2017) and operates<br/>
                     under the Master License of Game Service Provider, N.V. No. 365/JAZ as an<br/>
@@ -57,11 +57,12 @@
                     Hungary, with tax registration number: 27107870-2-13, legal address: 2161<br/>
                     Csomád, Kossuth Lajos út 79.
                 </p>
-                <h3>
+                <h3 class="z-index">
                     ©2022 <a href="#" id="none">Fgfox.com.</a> All rights reserved.
                 </h3>
             </div>
         </footer>  
+         <img src ="img/background.png" class="absolute">
         </div>
     <script src = "js/main.js"></script>
 </body>

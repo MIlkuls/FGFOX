@@ -8,6 +8,10 @@
     text-align: center;
     color:white;
 }
+
+
+/*Static*/
+
 .d-flex{
     display: flex;
 }
@@ -29,20 +33,33 @@
 .relative{
     position: relative;
 }
+.z-index{
+    z-index: 99;
+}
+
 
 body{
     min-width: 600px;
     background-color: #1E1E1E;
 }
 
-
 .wrapper-container{
     width: 600px;
     height: 2248px;
-    background-image: url("/img/background.png");
-    background-repeat: no-repeat;
     gap:40px
 }
+
+header{
+    padding-top: 820px;
+}
+main{
+    gap:30px;
+}
+
+
+
+/*Image*/
+
 .transform{
    transition: all 0.5s ease-out;
 }
@@ -51,24 +68,15 @@ body{
     transform: translateY(-7px);
     
 }
-
-header{
-    padding-top: 820px;
-}
-
 .firefly{
     bottom:350px;
     left:370px;
 }
-
 .firefly-bottom{
     right:420px;
     top:355px;
 }
 
-main{
-    gap:30px;
-}
 
 .features{
     width:min-content;
@@ -102,7 +110,6 @@ main{
     transform: translateY(-7px);
     transition: all 0.5s ease-out;
 }
-
 .one{
    bottom: 35px;
    right: 160px;
